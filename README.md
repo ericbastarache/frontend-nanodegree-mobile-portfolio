@@ -26,3 +26,7 @@ http://www.javascriptkit.com/howto/newtech3.shtml
 Resource used to learn about backface-visibility:hidden for hardware acceleration
 
 http://www.w3schools.com/cssref/css3_pr_backface-visibility.asp
+
+Review of getElementsByClassName in mozilla documentation
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName
