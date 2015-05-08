@@ -488,7 +488,7 @@ var resizePizzas = function(size) {
     /*Here I modified this function to call the queryselector once and
     /*removed the equations and variables from the loop*/
 
-    var pizzaArr = document.getElementsByClassName(".randomPizzaContainer");
+    var pizzaArr = document.getElementsByClassName("randomPizzaContainer");
     var pizzaLength = pizzaArr.length;
     var newwidth = (pizzaArr[0].offsetWidth + determineDx(pizzaArr[0], size)) + 'px';
     //Iterate array elements.
@@ -543,7 +543,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
-  var items = document.getElementsByClassName('.mover');
+  var items = document.getElementsByClassName('mover');
   /*Get scroll position outside of the loop so we're not
   /*Continuously using the loop to find the scroll position */
   var scroll = document.body.scrollTop;
