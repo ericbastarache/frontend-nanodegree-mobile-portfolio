@@ -33,6 +33,10 @@ form {
   position: fixed;
   width: 256px;
   z-index: -1;
+
+  /*Enable hardware acceleration on low end machines */
+
+  backface-visibility:hidden;
 }
 
 .randomPizzaContainer {

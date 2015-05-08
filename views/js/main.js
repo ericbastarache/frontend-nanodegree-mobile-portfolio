@@ -487,6 +487,7 @@ var resizePizzas = function(size) {
 
     /*Here I modified this function to call the queryselector once and
     /*removed the equations and variables from the loop*/
+
     var pizzaArr = document.getElementsByClassName(".randomPizzaContainer");
     var pizzaLength = pizzaArr.length;
     var newwidth = (pizzaArr[0].offsetWidth + determineDx(pizzaArr[0], size)) + 'px';
@@ -569,8 +570,12 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  var maxHeight = screen.availHeight / s * cols;
-  for (var i = 0; i < maxHeight; i++) {
+
+  //pizzas required to fill the screen based on available height
+
+  var pizzasRequired = screen.availHeight / s * cols;
+
+  for (var i = 0; i < pizzasRequired; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza-min.png";
