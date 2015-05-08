@@ -15,5 +15,10 @@ To optimize FPS in pizza.html the following changes were made:
 
 1. I removed var pizzasDiv = document.getElementById("randomPizzas"); from the loop so the function does not get called over and over again.
 2. I modified the changePizzaSizes function to call queryselector once (outside of the loop) and removed the equations and variables from the loop as they don't need to be calculated every step through the loop.
+3. Updated the generation of the sliding pizzas on page load to only display pizzas based on the available screen height
 
 After the changes were made the page refreshed and rendered faster
+
+Resource used to find screen.availHeight
+
+http://www.javascriptkit.com/howto/newtech3.shtml
