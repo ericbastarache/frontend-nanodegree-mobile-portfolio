@@ -22,3 +22,7 @@ After the changes were made the page refreshed and rendered faster
 Resource used to find screen.availHeight
 
 http://www.javascriptkit.com/howto/newtech3.shtml
+
+Resource used to learn about backface-visibility:hidden for hardware acceleration
+
+http://www.w3schools.com/cssref/css3_pr_backface-visibility.asp
